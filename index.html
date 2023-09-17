@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Kimetsu List</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>鬼滅の刃のキャラクター 一覧</h1>
+
+    <div class="loading">
+      <h2>loading</h2>
+    </div>
+
+    <form class="selectCharacter">
+      <label><input type="radio" name="character" value="all">全キャラクター</label>
+      <label><input type="radio" name="character" value="kisatsutai">鬼殺隊</label>
+      <label><input type="radio" name="character" value="hashira">柱</label>
+      <label><input type="radio" name="character" value="oni">鬼</label>
+    </form>
+
+    <ul class="characterList"></ul>
+
+    <script src="index.js"></script>
+  </body>
+</html>
